@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.side-picture {
+    background-image: url(./picture.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    padding: 1vh;
+    height: 15vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+img {
+    margin: 1vh;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.form-selection {
+    display: flex;
+    flex-direction: column;
+}
