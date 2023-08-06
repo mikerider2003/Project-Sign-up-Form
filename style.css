@@ -36,3 +36,86 @@ h1 {
     white-space: nowrap;
 }
 
+.text {
+    margin: 2vh 2vw;
+    font-size: larger;
+}
+
+.text > p {
+    margin: 2vh 0;
+}
+
+form {
+    margin: 2vh 0;
+    box-shadow: 0 0 10px black;
+}
+
+form > p {
+    margin: 2vh 2vw;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2vh 0;
+    gap: 2vh;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+input:focus {
+    border: 3px darkgreen solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type=email]:invalid {
+    border: 3px red solid;
+    border-radius: 3px;
+}
+
+button {
+    margin: 0 2vw 1vh;
+    background-color: darkgreen;
+    border: 2px darkgreen solid;
+    border-radius: 5px;
+    color: white;
+    padding: 1vh;    
+    font-size: larger;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: green;
+    border: 2px green solid;
+    cursor: pointer;
+}
+
+.log-in {
+    margin: 0 2vw;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
