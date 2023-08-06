@@ -9,16 +9,17 @@ This project is a sign up form for a website. It is a pary of The Odin Project i
 
 ## To do
 
-- [ ] Create a form with the following fields:
-    - [ ] First Name
-    - [ ] Last Name
+- [x] Create a form with the following fields:
+    - [x] First Name
+    - [x] Last Name
 
-    - [ ] Email
-    - [ ] Phone Number
+    - [x] Email
+    - [x] Phone Number
 
-    - [ ] Password
-    - [ ] Password confirmation
-    - [ ] Submit button
+    - [x] Password
+    - [x] Password confirmation
+    - [x] Submit button
 ---
-- [ ] Page structure
-    - [ ] Picuture
+- [x] Page structure
+
+    - [x] Picuture
